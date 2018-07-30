@@ -17,6 +17,7 @@
   <body>
     <p>
 <?php
+/*Affichage des éléments du tableau associatif*/
   foreach($departements as $cle => $element){
     echo 'Le département ' . $cle . ' a le numéro ' . $element
 ?>
